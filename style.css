@@ -19,7 +19,6 @@
    
 }
 .hero{
-    height: 57.4rem;
     background-color: #FFF8F3;
     background-image: 
         url('images/developer.png'), 
@@ -27,9 +26,7 @@
         url('images/header_bg.png');
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 25px 50px, right bottom, right bottom;
-   
-    
-    
+      
 }
 .container ul{
     padding: 40px 120px;
@@ -73,7 +70,7 @@
 section .main-section{
     display: flex;
     flex-direction: column;
-    padding: 15rem 15rem;
+    padding: 16rem 15rem;
 
  
 }
