@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.prgraph{
+    color: #757575;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+}
+.heading{
+    font-size: 42px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+   
+}
+.hero{
+    height: 57.4rem;
+    background-color: #FFF8F3;
+    background-image: 
+        url('images/developer.png'), 
+        url('images/hardy.png'), 
+        url('images/header_bg.png');
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 25px 50px, right bottom, right bottom;
+   
+    
+    
+}
+.container ul{
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.container ul li{
+    list-style: none;
+
+
+}
+.container ul li a{
+    text-decoration: none;
+    color: #181818;
+}
+.container ul .logo a{
+    text-decoration: none;
+    color: #181818;
+    font-size: 45px;
+    font-weight: bolder;
+}
+.container ul li span{
+    color: #FD6E0A;
+}
+.container div{
+    display: flex;
+    gap: 40px;
+    font-size: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 400;
+}
+.container div .btn a{
+    background-color: #FD6E0A;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 600;
+}
+section .main-section{
+    display: flex;
+    flex-direction: column;
+    padding: 15rem 15rem;
+
+ 
+}
+.main-section h4{
+    font-size: 50px;
+    font-weight: 500;
+    text-align: left;
+    color: #474747;
+}
+.main-section h2{
+    font-size: 70px;
+    font-weight:bold;
+    text-align: left;
+}
+.main-section .button-container{
+    margin-top: 20px;
+}
+.button-container button{
+    margin: 0 10px;
+    padding: 1.3rem 3rem;
+    border: 1px solid #FD6E0A;
+    border-radius: 10px;
+}
+.button-container .Download{
+    border: none;
+    background-color: #FD6E0A;
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.button-container .Contact{
+    background-color: #ffffff;
+    color:#FD6E0A;
+    font-size: 20px;
+    font-weight: 500;
+}
+.about{
+    margin: 70px 120px;
+    padding: 70px 120px;
+    background-color: #FFF8F3;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius:10px ;
+}
+.about-text{
+    border:  1px solid #181818;
+    text-align: center;
+    height: 240px;
+}
+.about-text h2{
+    padding: 20px;
+    font-size: 40px;
+    font-weight:600;
+}
+.about-text p{
+    padding: 10px;
+    font-size: 20px;
+    opacity: .75;
+   
+}
+.information{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.information p{
+    opacity: .75;
+
+}
+.skill{
+    margin: 70px 120px; 
+}
+.skill h1{
+    padding: 20px;
+    font-size: 40px;
+    font-weight:600;
+    text-align: center;
+}
+.skill .skill_text{
+    padding: 10px;
+    font-size: 20px;
+    opacity: .75;
+    text-align: center;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+   
+}
+.skill-container .skill-item{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
